@@ -5,12 +5,14 @@ function happyHolidays()
   return string
 }
 
-happyHolidaysTo(name)
+function happyHolidaysTo(name)
 {
   return 'Happy Holidays, ${name}!'
 }
 
-happyHolidayTo(holiday,name)
+function happyHolidayTo(holiday,name)
 {
-  return 'Happy ,${holiday},${name}'
+  return 'Happy ,${holiday},${name}!'
 }
+
+
